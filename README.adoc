@@ -1,0 +1,15 @@
+# maestro
+
+Maestro player Spring Boot test application
+
+Start the server
+
+  mvn clean spring-boot:run
+  
+  
+Usage example:
+
+ http://localhost:8080/maestro/move/10/1
+ 
+10 - total pieces to take from
+1 - last move from opponent
